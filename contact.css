@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Advent Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 3em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ******************* NAVBAR ******************* */
+nav {
+  overflow: hidden;
+  background-color: #f1f2f6;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+header li {
+  float: right;
+  font-size: 2em;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+#logo {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  float: left;
+}
+.ul1 li a:hover {
+  background-color: #fad390;
+  color: #fff;
+}
+
+  .icon {
+    margin-right: 10px;
+  }
+
+/* **************** IMAGE PRINCIPALE ************* */
+#imagePrincipale {
+  padding-top: 60px;
+  background: url(media1/style.png) no-repeat 50% 50%;
+  background-size: cover;
+  height: 799px;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px rgb(0, 0, 0);
+}
+#premierTrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: #191b21;
+  box-shadow: 1px 3px 2px #191b21;
+}
+h3 {
+  text-align: center;
+  color:antiquewhite;
+  font-size: 3.4em;
+  text-shadow: 1px 3px 2px black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Advent Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 4.5em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #f1f2f6;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+  }
+  header li {
+    float: right;
+    font-size: 2em;
+  }
+  header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+  }
+  #logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float: left;
+  }
+
+
+
+footer {
+    background-color: #191b21;
+    color: #FFFAE1;
+    padding: 290px 0 360px 0;
+    text-align: center;
+  }
+  form {
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  input, textarea, button {
+    border: none;
+width: 100%;
+padding: 55px 0px;
+margin: 1px 0;
+font-size: 2.2em;
+font-family: 'Advent Pro', sans-serif;
+border-radius: 8px;
+  }
+  textarea {
+    height: 120px;
+  }
+  button {
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+  }
+  button:hover {
+    background-color: #e55039;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  #deuxiemeTrait {
+    height: 2px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 240px auto;
+
+  }
+  #copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+  }
+  #copyright {
+    width: 60%;
+    text-align: left;
+    color: #FFFAE1;
+   
+  }
+  #icons {
+    width: 50%;
+    text-align: right;
+  }
+  #icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #FFFAE1;
+  }
+  #icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+  }
+  .ul {
+    list-style-type: none;
+    margin: 0 2px;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+    position: absolute;
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .ul li a {
+    display: block;
+    color: #191b21;
+    padding: 48px 60px;
+    text-decoration: none;
+  }
+  
+  /* color change on hover */
+  .ul li a:hover {
+    background-color: #fad390;
+    color: #fff;
+  }
+  
+    .icon {
+      margin-right: 10px;
+    }
